@@ -34,7 +34,7 @@ for sub_dir in list_dir:
             new_path = Path(os.path.join(path_3,new_name_folder))
             shifr[sub_sub_sub_dir] = new_name_folder
             print(f"заменяем {sub_sub_sub_dir} на {new_name_folder}")
-            os.rename(path_4, new_path)
+            os.rename(path_4,new_path)
 
 for k in shifr:
     print(k, ": ", shifr[k])
